@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Item Summary Report</title>
+    <meta property="og:title" content="Items by or about William S. Burroughs, from the collection of Bradley P. Allen" />
+    <meta name="author" content="Bradley P. Allen" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="This site contains catalog information about my collection of items by and about Williams S. Burroughs." />
+    <meta property="og:description" content="This site contains catalog information about my collection of items by and about Williams S. Burroughs." />
+    <link rel="canonical" href="https://www.bradleypallen.org/wsb-catalog/" />
+    <meta property="og:url" content="https://www.bradleypallen.org/wsb-catalog/" />
+    <meta property="og:site_name" content="Items by or about William S. Burroughs" />
+    <style>
+    body {
+      margin: 30px 30px 30px 30px
+    }
+    h1 {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    #items {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    #items td, #items th {
+      border: 1px solid #ddd;
+      padding: 12px;
+    }
+    #items tr:nth-child(even){background-color: #f2f2f2;}
+    #items tr:hover {background-color: #ddd;}
+    #items th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #6495ED;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+    td img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Item Summary Report</h1>
+      <table id="items">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>image</th>
+            <th>title</th>
+            <th>date</th>
+            <th>description</th>
+            <!-- <th>contributors</th> -->
+            <!-- <th>publication</th> -->
+            <!-- <th>identifiers</th> -->
+            <!-- <th>note</th> -->
+            <!-- <th>holder</th> -->
+            <!-- <th>instance</th> -->
+            <!-- <th>work</th> -->
+            <!-- <th>classification</th> -->
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in sql("select item.id as id, [dc:title] as title, originDate as date, note.value as description from Item left join Item_note on Item.id = Item_note.subject left join Note on Note.id = Item_note.object order by date, id" , database="data") %}
+          <tr>
+            <td>{{ loop.index }}</td>
+            <!-- <td>{{ row['id'] }}</td> -->
+            <td><img src="{{ 'static/thumbnail/' + row['id']|replace("https://wsburroughs.link/item/", "") + '.jpg'}}"></td>
+            <td>{{ row['title'] }}</td>
+            <td>{{ row['date']}}</td>
+            <td>{{ row['description']}}</td>
+            <!-- <td>{{ row['contributors']}}</td> -->
+            <!-- <td>{{ row['publication'] }}</td> -->
+            <!-- <td>{{ row['identifiers'] }}</td> -->
+            <!-- <td>{{ row['note'] }}</td> -->
+            <!-- <td>{{ row['holder'] }}</td> -->
+            <!-- <td>{{ row['instance'] }}</td> -->
+            <!-- <td>{{ row['work'] }}</td> -->
+            <!-- <td>{{ row['classification'] }}</td> -->
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
