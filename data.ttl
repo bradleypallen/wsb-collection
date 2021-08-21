@@ -14137,3 +14137,67 @@
     rdfs:subClassOf <https://wsburroughs.link/classification/abr40> ;
     skos:definition "\"... Burroughs’ publications in book, broadside, and pamphlet form. Foreign titles are included only if they have no English-language analogue (e.g., A16) or represent the first publication of a particular title (e.g., A34a).\"-Introduction." .
 
+<https://wsburroughs.link/item/william-s-burroughs-2> a bf:Item ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ] ;
+    bf:note [ a bf:Note,
+                arm:DescriptiveNote ;
+            rdf:value "First. Singlesheet of cardstock, folded to make 10 panels (Schottlaender.) Brochure accompanying one-man exhibition at Shafrazi Gallery in New York, 19 December 1987 – 24 January 1988." ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "B6" ] ;
+    bf:instanceOf <https://wsburroughs.link/work/abr40-b6> ;
+    bf:originDate "1988" ;
+    dc:title "William S. Burroughs" .
+
+<https://wsburroughs.link/item/naked-lunch-50-anniversary-ess-1> a bf:Item ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ] ;
+    bf:note [ a bf:Note,
+                arm:DescriptiveNote ;
+            rdf:value "Carbondale, Illinois: Southern Illnois University Press: 2009. First. Hardbound. Oliver Harris, Ian MacFadyen, editors." ] ;
+    bf:originDate "2009" ;
+    dc:title "Naked Lunch @ 50: anniversary essays" .
+
+<https://wsburroughs.link/item/among-nazis-william-s-burrough-1> a bf:Item ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ] ;
+    bf:note [ a bf:Note,
+                arm:DescriptiveNote ;
+            rdf:value "Rotterdam, Netherlands: Sea Urchin Editions: 2020. Moloko Print 078. Bilingual edition in English and German. First. Softbound. Thomas Antonic, author." ] ;
+    bf:originDate "2020" ;
+    dc:title "Amongst Nazis / Unter Nazis: William S. Burroughs in Vienna 1936/37" .
+
+<https://wsburroughs.link/item/the-black-mountain-review-7-1> a bf:Item ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ] ;
+    bf:note [ a bf:Note,
+                arm:DescriptiveNote ;
+            rdf:value "Black Mountain, North Carolina: Black Mountain College, 1957. Contains Burroughs\' \"From Naked Lunch, Book III\" on page 144, under the pseudonym William Lee. Per Brian Cassidy: \"A unique association copy of the final issue of one of the most important small magazines of the 20th century - specially bound by R'lene LaFleur Howell Dahlberg for her husband Edward Dahlberg. ... 6.5\" x 4.75\". Quarter black leather with marbled boards, specially bound by R'lene (Howell) Dahlberg. Decorative endpapers. Illustrated with black and white photographs. Signed by Edward H. Marshall on page 38 at his poem \"Leave the World Alone.\" Some page toning and light edgewear. Near fine.\"" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C2" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C2" ] ;
+    bf:instanceOf <https://wsburroughs.link/work/abr40-c2> ;
+    bf:originDate "1957" ;
+    dc:title "The Black Mountain Review 7" .
+
+<https://wsburroughs.link/item/onthebus-4-1> a bf:Item ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ] ;
+    bf:note [ a bf:Note,
+                arm:DescriptiveNote ;
+            rdf:value "Los Angeles: Bombshelter Press, 1989. In wrappers. Interview by Daniel Ritkes of Burroughs and Allen Ginsberg, pages 163 - 171. Daniel Ritkes, William S. Burroughs, Allen Ginsberg, contributors." ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C598" ] ;
+    bf:instanceOf <https://wsburroughs.link/work/abr40-c598> ;
+    bf:originDate "1989" ;
+    dc:title "ONTHEBUS 4" .

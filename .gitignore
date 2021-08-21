@@ -115,3 +115,6 @@ dmypy.json
 
 # MacOS files
 .DS_Store
+
+#SQLite database files
+*.db
