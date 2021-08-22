@@ -1,5 +1,5 @@
 # wsb-collection
-[![Changelog](https://img.shields.io/github/v/release/bradleypallen/wsb-collection?include_prereleases&label=changelog)](https://github.com/bradleypallen/wsb-collection/releases)
+[![Release](https://img.shields.io/github/release-date-pre/bradleypallen/wsb-collection)](https://github.com/bradleypallen/wsb-collection/releases)
 [![Test](https://github.com/bradleypallen/wsb-collection/actions/workflows/test.yml/badge.svg)](https://github.com/bradleypallen/wsb-collection/actions/workflows/test.yml)
 [![Publish](https://github.com/bradleypallen/wsb-collection/actions/workflows/publish.yml/badge.svg)](https://github.com/bradleypallen/wsb-collection/actions/workflows/publish.yml)
 [![License](https://img.shields.io/github/license/bradleypallen/wsb-collection)](https://github.com/bradleypallen/wsb-collection/blob/main/LICENSE)
