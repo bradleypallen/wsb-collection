@@ -1,5 +1,6 @@
 # wsb-collection
 [![Changelog](https://img.shields.io/github/v/release/bradleypallen/wsb-collection?include_prereleases&label=changelog)](https://github.com/bradleypallen/wsb-collection/releases)
+[![Tests](https://github.com/bradleypallen/wsb-collection/workflows/Test/badge.svg)](https://github.com/bradleypallen/wsb-collection/actions?query=workflow%3ATest)
 [![License](https://img.shields.io/github/license/bradleypallen/wsb-collection)](https://github.com/bradleypallen/wsb-collection/blob/main/LICENSE)
 
 ## The William S. Burroughs Collection of Bradley P. Allen
