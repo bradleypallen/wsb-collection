@@ -1,0 +1,3 @@
+rdflib>=6.0.0
+rdf-to-sqlite>=0.1
+datasette>=0.58.1
