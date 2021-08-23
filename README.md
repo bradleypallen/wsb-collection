@@ -8,8 +8,8 @@
 An evolving experiment in the application of linked data principles to descriptive bibliography.
 
 ### Links
-* The dataset is accessible at [http://wsburroughs.link](http://wsburroughs.link) through a [Datasette](https://datasette.io) user interface.
-* This site also provides a [summary report of items in the collection](http://wsburroughs.link/item-summary-report/)
+The dataset is accessible at [http://wsburroughs.link](http://wsburroughs.link) through a [Datasette](https://datasette.io) user interface.
+This site also provides a [summary report of items in the collection](http://wsburroughs.link/item-summary-report/).
 
 ### License
 The software in this repository is made available under an MIT License. The data contained in `data.ttl` is separately made available under a
