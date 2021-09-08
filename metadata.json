@@ -8,9 +8,9 @@
     "databases": {
       "data": {
         "queries": {
-          "items": {
+          "item_summary": {
             "title": "Items in the Collection",
-            "sql": "select item.id as id, [dc:title] as title, originDate as date, note.value as description from Item left join Item_note on Item.id = Item_note.subject left join Note on Note.id = Item_note.object order by date, id"
+            "sql": "select [dc:title] as title, originDate as date, note.value as description from Item left join Item_note on Item.id = Item_note.subject left join Note on Note.id = Item_note.object order by date, Item.id"
           }
         }
       }
