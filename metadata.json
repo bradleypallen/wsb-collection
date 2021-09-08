@@ -4,5 +4,15 @@
     "license": "CC BY-NC-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
     "source": "Github",
-    "source_url": "https://github.com/bradleypallen/wsb-collection"
+    "source_url": "https://github.com/bradleypallen/wsb-collection",
+    "databases": {
+      "data": {
+        "queries": {
+          "items": {
+            "title": "Items in the collection"
+            "sql": "select item.id as id, [dc:title] as title, originDate as date, note.value as description from Item left join Item_note on Item.id = Item_note.subject left join Note on Note.id = Item_note.object order by date, id"
+          }
+        }
+      }
+    }
 }
