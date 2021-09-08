@@ -9,7 +9,7 @@
       "data": {
         "queries": {
           "items": {
-            "title": "Items in the collection"
+            "title": "Items in the Collection",
             "sql": "select item.id as id, [dc:title] as title, originDate as date, note.value as description from Item left join Item_note on Item.id = Item_note.subject left join Note on Note.id = Item_note.object order by date, id"
           }
         }
