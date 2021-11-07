@@ -12,5 +12,5 @@ The dataset is accessible at [http://wsburroughs.link](http://wsburroughs.link) 
 This site also provides a [summary report of items in the collection](http://wsburroughs.link/item-summary-report/).
 
 ### License
-The software in this repository is made available under an MIT License. The data contained in `data.ttl` is separately made available under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+The software in this repository is made available under an [MIT License](https://github.com/bradleypallen/wsb-collection/blob/252e149277d7657007dc6ba8335c681938070012/LICENSE). The data contained in `data.ttl` is separately made available under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://github.com/bradleypallen/wsb-collection/blob/252e149277d7657007dc6ba8335c681938070012/LICENSE_data).
