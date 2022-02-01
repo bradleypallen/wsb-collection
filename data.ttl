@@ -5681,6 +5681,17 @@ wsbit:junkie-5 a bf:Item ;
     bf:originDate "1964" ;
     dc:title "Junkie" .
 
+wsbit:junkie-6 a bf:Item ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ] ;
+    bf:itemOf wsbi:abr40-a1c ;
+    bf:note [ a bf:Note,
+                arm:DescriptiveNote ;
+            rdf:value "New York, NY: Ace Books, 1972. First American, third state. Schottlaender A1c, Maynard & Miles A1c." ] ;
+    bf:originDate "1964" ;
+    dc:title "Junkie" .
+
 wsbit:junky-queer-naked-lunch-1 a bf:Item ;
     bf:heldBy [ a bf:Agent,
                 bf:Person ;
@@ -11981,7 +11992,8 @@ wsbi:abr40-a1c a bf:Instance ;
                     rdfs:label "contributor" ] ] ;
     bf:copyrightDate "1953" ;
     bf:hasItem wsbit:junkie-4,
-        wsbit:junkie-5 ;
+        wsbit:junkie-5,
+        wsbit:junkie-6 ;
     bf:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
