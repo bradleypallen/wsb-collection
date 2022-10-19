@@ -5,6 +5,8 @@
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
     "source": "Github",
     "source_url": "https://github.com/bradleypallen/wsb-collection",
+    "about": "Summary report of items in the collection",
+    "about_url": "https://wsburroughs.link/item-summary-report",
     "databases": {
       "data": {
         "tables": {
