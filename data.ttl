@@ -44,6 +44,16 @@ wsbc:abr40-i a bf:Classification ;
     rdfs:subClassOf wsbc:abr40 ;
     skos:definition "\"... bibliographies and criticism of him [Burroughs]. Bibliographic and critical works are included only if issued as stand-alone publications, and only if they deal exclusively with Burroughs or if he is named in the title.\"-Introduction." .
 
+wsbit:among-nazis-william-s-burrough-1 a bf:Item ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ] ;
+    bf:note [ a bf:Note,
+                arm:DescriptiveNote ;
+            rdf:value "Rotterdam, Netherlands: Sea Urchin Editions: 2020. Moloko Print 078. Bilingual edition in English and German. First. Softbound. Thomas Antonic, author." ] ;
+    bf:originDate "2020" ;
+    dc:title "Amongst Nazis / Unter Nazis: William S. Burroughs in Vienna 1936/37" .
+
 wsbit:bastard-1 a bf:Item ;
     bf:heldBy [ a bf:Agent,
                 bf:Person ;
@@ -83,6 +93,18 @@ wsbit:brion-gysin-tuning-in-to-the-m-1 a bf:Item ;
             rdf:value "London: Thames & Hudson Ltd., 2003. First. Edited by Jose Ferez Kuri. Contains \"Port of Entry Here is space-time painting\" by Burroughs. First issue in wrappers." ] ;
     bf:originDate "2003" ;
     dc:title "Brion Gysin Tuning in to the Multimedia Age" .
+
+wsbit:buffalo-cold-spring-precinct-2-1 a bf:Item,
+        bf:Text ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ] ;
+    bf:itemOf wsbi:abr40-g24 ;
+    bf:note [ a bf:Note,
+                arm:DescriptiveNote ;
+            rdf:value "Buffalo, N.Y.: Intrepid Press, 1971. Softbound (no hardbound issued). First. Schottlaender G24." ] ;
+    bf:originDate "1971" ;
+    dc:title "Buffalo Cold Spring Precinct 23 Bulletin" .
 
 wsbit:burroughs-and-friends-lost-in-1 a bf:Item ;
     bf:heldBy [ a bf:Agent,
@@ -234,6 +256,30 @@ wsbit:mindfield-1 a bf:Item ;
     bf:originDate "1989" ;
     dc:title "Mindfield" .
 
+wsbit:naked-lunch-50-anniversary-ess-1 a bf:Item ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ] ;
+    bf:note [ a bf:Note,
+                arm:DescriptiveNote ;
+            rdf:value "Carbondale, Illinois: Southern Illnois University Press: 2009. First. Hardbound. Oliver Harris, Ian MacFadyen, editors." ] ;
+    bf:originDate "2009" ;
+    dc:title "Naked Lunch @ 50: anniversary essays" .
+
+wsbit:onthebus-4-1 a bf:Item ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C598" ] ;
+    bf:instanceOf wsbi:abr40-c598 ;
+    bf:note [ a bf:Note,
+                arm:DescriptiveNote ;
+            rdf:value "Los Angeles: Bombshelter Press, 1989. In wrappers. Interview by Daniel Ritkes of Burroughs and Allen Ginsberg, pages 163 - 171. Daniel Ritkes, William S. Burroughs, Allen Ginsberg, contributors." ] ;
+    bf:originDate "1989" ;
+    dc:title "ONTHEBUS 4" .
+
 wsbit:paper-roses-on-the-prefabricat-1 a bf:Item ;
     bf:heldBy [ a bf:Agent,
                 bf:Person ;
@@ -314,6 +360,23 @@ wsbit:the-beat-book-1 a bf:Item ;
     bf:originDate "1996" ;
     dc:title "The Beat Book" .
 
+wsbit:the-black-mountain-review-7-1 a bf:Item ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C2" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C2" ] ;
+    bf:instanceOf wsbi:abr40-c2 ;
+    bf:note [ a bf:Note,
+                arm:DescriptiveNote ;
+            rdf:value "Black Mountain, North Carolina: Black Mountain College, 1957. Contains Burroughs' \"From Naked Lunch, Book III\" on page 144, under the pseudonym William Lee. Per Brian Cassidy: \"A unique association copy of the final issue of one of the most important small magazines of the 20th century - specially bound by R'lene LaFleur Howell Dahlberg for her husband Edward Dahlberg. ... 6.5\" x 4.75\". Quarter black leather with marbled boards, specially bound by R'lene (Howell) Dahlberg. Decorative endpapers. Illustrated with black and white photographs. Signed by Edward H. Marshall on page 38 at his poem \"Leave the World Alone.\" Some page toning and light edgewear. Near fine.\"" ] ;
+    bf:originDate "1957" ;
+    dc:title "The Black Mountain Review 7" .
+
 wsbit:the-drug-user-documents-1840-1 a bf:Item ;
     bf:heldBy [ a bf:Agent,
                 bf:Person ;
@@ -393,6 +456,20 @@ wsbit:william-burroughs-archive-fl-1 a bf:Item ;
             rdf:value "n.p., 1973. The typescript of the introductory section of \"A Descriptive Catalogue of the William S . Burroughs Archive,\" together with notes on the catalog by Brion Gysin on lined notebook paper. Notes slightly yellowed at top, else fine. Per James Musser: \"GYSIN, Brion.  Gysin's handwritten notes listing corrections for The Descriptive Catalog of the William S. Burroughs Archive published by Covent Garden in 1973.  3 pages. 4to. Gysin carefully lists, page-by-page, suggested corrections to the text of the catalog of the Burroughs archive that also included much of his own material.  TOGETHER WITH two pages of original typescript by Gysin titled \"Flyer.\"  Gysin's text, never published, was intended to be a promotional flyer describing the catalog of the Burroughs archive.  Fine.\"" ] ;
     bf:originDate "1973" ;
     dc:title "William Burroughs Archive - Flyer" .
+
+wsbit:william-s-burroughs-2 a bf:Item ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "B6" ] ;
+    bf:instanceOf wsbi:abr40-b6 ;
+    bf:note [ a bf:Note,
+                arm:DescriptiveNote ;
+            rdf:value "First. Singlesheet of cardstock, folded to make 10 panels (Schottlaender.) Brochure accompanying one-man exhibition at Shafrazi Gallery in New York, 19 December 1987 – 24 January 1988." ] ;
+    bf:originDate "1988" ;
+    dc:title "William S. Burroughs" .
 
 wsbit:william-s-burroughs-the-rev-1 a bf:Item ;
     bf:heldBy [ a bf:Agent,
@@ -4526,35 +4603,6 @@ wsbi:abr40-c146 a bf:Instance ;
 
 wsbi:abr40-c162 a bf:Instance ;
     bf:hasItem wsbit:klacto-23-1 .
-
-wsbi:abr40-c2 a bf:Instance ;
-    rdfs:label "The Black Mountain Review, [No.] 7 (Autumn 1957)" ;
-    bf:classification wsbc:abr40-c ;
-    bf:contribution [ a bf:Contribution ;
-            bf:agent [ a bf:Agent,
-                        bf:Person ;
-                    rdfs:label "William S. Burroughs" ] ;
-            bf:role [ a bf:Role ;
-                    rdfs:label "author" ] ] ;
-    bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C2" ],
-        [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C2" ] ;
-    bf:instanceOf wsbw:abr40-c2 ;
-    bf:note [ a bf:Note ;
-            rdf:value "“From Naked Lunch, Book III: In Search of Yage.”" ],
-        [ a bf:Note ;
-            rdf:value "Published under the pseudonym William Lee." ],
-        [ a bf:Note ;
-            rdf:value "Actually published Spring, 1958. [BeatBooks 59]" ] ;
-    bf:originDate "1957" ;
-    bf:provisionActivity [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:date "1957" ] ;
-    bf:title [ a bf:Title ;
-            rdfs:label "The Black Mountain Review, [No.] 7 (Autumn 1957)" ] .
 
 wsbi:abr40-c230 a bf:Instance ;
     bf:hasItem wsbit:fruit-cup-0-1 .
@@ -11404,6 +11452,35 @@ wsbi:abr40-b23a a bf:Instance ;
     bf:hasItem wsbit:ports-of-entry-williams-burro-1,
         wsbit:ports-of-entry-williams-burro-2 .
 
+wsbi:abr40-c2 a bf:Instance ;
+    rdfs:label "The Black Mountain Review, [No.] 7 (Autumn 1957)" ;
+    bf:classification wsbc:abr40-c ;
+    bf:contribution [ a bf:Contribution ;
+            bf:agent [ a bf:Agent,
+                        bf:Person ;
+                    rdfs:label "William S. Burroughs" ] ;
+            bf:role [ a bf:Role ;
+                    rdfs:label "author" ] ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C2" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C2" ] ;
+    bf:instanceOf wsbw:abr40-c2 ;
+    bf:note [ a bf:Note ;
+            rdf:value "“From Naked Lunch, Book III: In Search of Yage.”" ],
+        [ a bf:Note ;
+            rdf:value "Published under the pseudonym William Lee." ],
+        [ a bf:Note ;
+            rdf:value "Actually published Spring, 1958. [BeatBooks 59]" ] ;
+    bf:originDate "1957" ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:date "1957" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "The Black Mountain Review, [No.] 7 (Autumn 1957)" ] .
+
 wsbi:abr40-c3 a bf:Instance ;
     rdfs:label "The British Journal of Addiction, Vol. 53, No. 2 (January 1957)" ;
     bf:classification wsbc:abr40-c ;
@@ -11970,59 +12047,6 @@ wsbi:abr40-a1a a bf:Instance ;
             bf:agent [ a bf:Agent ;
                     rdfs:label "Ace Books" ] ;
             bf:date "1953" ;
-            bf:place [ a bf:Place ;
-                    rdfs:label "New York" ] ] ;
-    bf:title [ a bf:Title ;
-            rdfs:label "Junkie" ] .
-
-wsbi:abr40-a1c a bf:Instance ;
-    rdfs:label "Junkie" ;
-    bf:classification wsbc:abr40-a ;
-    bf:contribution [ a bf:Contribution ;
-            bf:agent [ a bf:Agent,
-                        bf:Person ;
-                    rdfs:label "William S. Burroughs" ] ;
-            bf:role [ a bf:Role ;
-                    rdfs:label "author" ] ],
-        [ a bf:Contribution ;
-            bf:agent [ a bf:Agent,
-                        bf:Person ;
-                    rdfs:label "Carl Solomon" ] ;
-            bf:role [ a bf:Role ;
-                    rdfs:label "contributor" ] ] ;
-    bf:copyrightDate "1953" ;
-    bf:hasItem wsbit:junkie-4,
-        wsbit:junkie-5,
-        wsbit:junkie-6 ;
-    bf:hasPart [ a arm:Binding ;
-            bf:note [ a bf:Note,
-                        arm:DescriptiveNote ;
-                    rdf:value "Softbound (no hardbound issued)." ] ] ;
-    bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "A1c" ],
-        [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "A1c" ] ;
-    bf:instanceOf wsbw:abr40-a1 ;
-    bf:note [ a bf:Note ;
-            rdf:value "(Ace Star, K202)" ],
-        [ a bf:Note ;
-            rdf:value "1st separate U.S. publication, and 1st publication under Burroughs' own name." ],
-        [ a bf:Note ;
-            rdf:value "1st state: (Ace Star, K202) and .50¢ cover price. [BeatBooks 51]" ],
-        [ a bf:Note ;
-            rdf:value "2nd state: (Ace Star, 41841) and .60¢ cover price. [BeatBooks 51]" ],
-        [ a bf:Note ;
-            rdf:value "Foreword by Carl Solomon." ],
-        [ a bf:Note ;
-            rdf:value "Reprinted in 1970 and 1973 (the latter with a different cover). [M&M]" ] ;
-    bf:originDate "1964" ;
-    bf:provisionActivity [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent [ a bf:Agent ;
-                    rdfs:label "Ace Books" ] ;
-            bf:date "1964" ;
             bf:place [ a bf:Place ;
                     rdfs:label "New York" ] ] ;
     bf:title [ a bf:Title ;
@@ -13463,6 +13487,59 @@ wsbw:abr40-a76 a bf:Text,
             rdf:value "A76" ] ;
     bf:originDate "1998" .
 
+wsbi:abr40-a1c a bf:Instance ;
+    rdfs:label "Junkie" ;
+    bf:classification wsbc:abr40-a ;
+    bf:contribution [ a bf:Contribution ;
+            bf:agent [ a bf:Agent,
+                        bf:Person ;
+                    rdfs:label "William S. Burroughs" ] ;
+            bf:role [ a bf:Role ;
+                    rdfs:label "author" ] ],
+        [ a bf:Contribution ;
+            bf:agent [ a bf:Agent,
+                        bf:Person ;
+                    rdfs:label "Carl Solomon" ] ;
+            bf:role [ a bf:Role ;
+                    rdfs:label "contributor" ] ] ;
+    bf:copyrightDate "1953" ;
+    bf:hasItem wsbit:junkie-4,
+        wsbit:junkie-5,
+        wsbit:junkie-6 ;
+    bf:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Softbound (no hardbound issued)." ] ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A1c" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "A1c" ] ;
+    bf:instanceOf wsbw:abr40-a1 ;
+    bf:note [ a bf:Note ;
+            rdf:value "(Ace Star, K202)" ],
+        [ a bf:Note ;
+            rdf:value "1st separate U.S. publication, and 1st publication under Burroughs' own name." ],
+        [ a bf:Note ;
+            rdf:value "1st state: (Ace Star, K202) and .50¢ cover price. [BeatBooks 51]" ],
+        [ a bf:Note ;
+            rdf:value "2nd state: (Ace Star, 41841) and .60¢ cover price. [BeatBooks 51]" ],
+        [ a bf:Note ;
+            rdf:value "Foreword by Carl Solomon." ],
+        [ a bf:Note ;
+            rdf:value "Reprinted in 1970 and 1973 (the latter with a different cover). [M&M]" ] ;
+    bf:originDate "1964" ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent [ a bf:Agent ;
+                    rdfs:label "Ace Books" ] ;
+            bf:date "1964" ;
+            bf:place [ a bf:Place ;
+                    rdfs:label "New York" ] ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Junkie" ] .
+
 wsbi:abr40-a22b a bf:Instance ;
     rdfs:label "The Last Words of Dutch Schultz" ;
     bf:classification wsbc:abr40-a ;
@@ -14154,67 +14231,3 @@ wsbc:abr40-a a bf:Classification ;
     rdfs:subClassOf wsbc:abr40 ;
     skos:definition "\"... Burroughs’ publications in book, broadside, and pamphlet form. Foreign titles are included only if they have no English-language analogue (e.g., A16) or represent the first publication of a particular title (e.g., A34a).\"-Introduction." .
 
-wsbit:william-s-burroughs-2 a bf:Item ;
-    bf:heldBy [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Bradley P. Allen" ] ;
-    bf:note [ a bf:Note,
-                arm:DescriptiveNote ;
-            rdf:value "First. Singlesheet of cardstock, folded to make 10 panels (Schottlaender.) Brochure accompanying one-man exhibition at Shafrazi Gallery in New York, 19 December 1987 – 24 January 1988." ] ;
-    bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "B6" ] ;
-    bf:instanceOf wsbi:abr40-b6 ;
-    bf:originDate "1988" ;
-    dc:title "William S. Burroughs" .
-
-wsbit:naked-lunch-50-anniversary-ess-1 a bf:Item ;
-    bf:heldBy [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Bradley P. Allen" ] ;
-    bf:note [ a bf:Note,
-                arm:DescriptiveNote ;
-            rdf:value "Carbondale, Illinois: Southern Illnois University Press: 2009. First. Hardbound. Oliver Harris, Ian MacFadyen, editors." ] ;
-    bf:originDate "2009" ;
-    dc:title "Naked Lunch @ 50: anniversary essays" .
-
-wsbit:among-nazis-william-s-burrough-1 a bf:Item ;
-    bf:heldBy [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Bradley P. Allen" ] ;
-    bf:note [ a bf:Note,
-                arm:DescriptiveNote ;
-            rdf:value "Rotterdam, Netherlands: Sea Urchin Editions: 2020. Moloko Print 078. Bilingual edition in English and German. First. Softbound. Thomas Antonic, author." ] ;
-    bf:originDate "2020" ;
-    dc:title "Amongst Nazis / Unter Nazis: William S. Burroughs in Vienna 1936/37" .
-
-wsbit:the-black-mountain-review-7-1 a bf:Item ;
-    bf:heldBy [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Bradley P. Allen" ] ;
-    bf:note [ a bf:Note,
-                arm:DescriptiveNote ;
-            rdf:value "Black Mountain, North Carolina: Black Mountain College, 1957. Contains Burroughs\' \"From Naked Lunch, Book III\" on page 144, under the pseudonym William Lee. Per Brian Cassidy: \"A unique association copy of the final issue of one of the most important small magazines of the 20th century - specially bound by R'lene LaFleur Howell Dahlberg for her husband Edward Dahlberg. ... 6.5\" x 4.75\". Quarter black leather with marbled boards, specially bound by R'lene (Howell) Dahlberg. Decorative endpapers. Illustrated with black and white photographs. Signed by Edward H. Marshall on page 38 at his poem \"Leave the World Alone.\" Some page toning and light edgewear. Near fine.\"" ] ;
-    bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C2" ],
-        [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C2" ] ;
-    bf:instanceOf wsbi:abr40-c2 ;
-    bf:originDate "1957" ;
-    dc:title "The Black Mountain Review 7" .
-
-wsbit:onthebus-4-1 a bf:Item ;
-    bf:heldBy [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Bradley P. Allen" ] ;
-    bf:note [ a bf:Note,
-                arm:DescriptiveNote ;
-            rdf:value "Los Angeles: Bombshelter Press, 1989. In wrappers. Interview by Daniel Ritkes of Burroughs and Allen Ginsberg, pages 163 - 171. Daniel Ritkes, William S. Burroughs, Allen Ginsberg, contributors." ] ;
-    bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C598" ] ;
-    bf:instanceOf wsbi:abr40-c598 ;
-    bf:originDate "1989" ;
-    dc:title "ONTHEBUS 4" .
