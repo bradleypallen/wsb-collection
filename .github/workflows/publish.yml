@@ -45,7 +45,7 @@ jobs:
       run: |
         rdf-to-sqlite data.db data.ttl --format turtle --context context.json
     - name: Set up Cloud Run
-      uses: google-github-actions/setup-gcloud@master
+      uses: google-github-actions/setup-gcloud@main
       with:
         version: '275.0.0'
         service_account_email: ${{ secrets.GCP_SA_EMAIL }}
