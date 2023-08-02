@@ -126,6 +126,17 @@ wsbit:burroughs-and-friends-lost-in-2 a bf:Item ;
     bf:originDate "2019" ;
     dc:title "Burroughs and Friends: Lost Interviews" .
 
+wsbit:cut-up-or-shut-up-1 a bf:Item,
+        bf:Text ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ] ;
+    bf:note [ a bf:Note,
+                arm:DescriptiveNote ;
+            rdf:value "Paris: Editions Agentzia, 1972. Softbound with dustwrapper cover. First. Signed on title page by William S. Burroughs." ] ;
+    bf:originDate "1972" ;
+    dc:title "Cut Up Or Shut Up" .
+
 wsbit:darazt-1 a bf:Item ;
     bf:heldBy [ a bf:Agent,
                 bf:Person ;
@@ -552,12 +563,12 @@ wsbi:abr40-a10d a bf:Instance ;
                     rdf:value "Softbound (no hardbound issued)." ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "A10d" ],
-        [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
             rdf:value "A10f" ],
         [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
+            rdf:value "A10d" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
             rdf:value "A10d" ] ;
     bf:instanceOf wsbw:abr40-a10 ;
     bf:note [ a bf:Note ;
