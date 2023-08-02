@@ -428,6 +428,18 @@ wsbit:the-junky-s-christmas-and-othe-1 a bf:Item ;
     bf:originDate "1994" ;
     dc:title "The Junky's Christmas And Other Yuletide Stories" .
 
+wsbit:the-world-no-30-1 a bf:Item,
+        bf:Text ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ] ;
+    bf:itemOf wsbi:abr40-c415 ;
+    bf:note [ a bf:Note,
+                arm:DescriptiveNote ;
+            rdf:value "New York, NY: The Poetry Project, July 1976. Foolscap. Mimeographed typescript, stapled. 125pp. Signed and briefly inscribed on the first page by William S. Burroughs (\"For David), signed by Allen Ginsberg and John Ashbery at their contributions." ] ;
+    bf:originDate "1976-07" ;
+    dc:title "THE WORLD, No. 30" .
+
 wsbit:to-talk-for-joe-the-dead-t-1 a bf:Item ;
     bf:heldBy [ a bf:Agent,
                 bf:Person ;
