@@ -51,7 +51,7 @@ jobs:
     - name: Set up Cloud Run
       uses: google-github-actions/setup-gcloud@v1
       with:
-        project-id: 'wsb-test-1'
+        project_id: 'wsb-test-1'
     - name: Deploy to Cloud Run
       run: |
         gcloud config set run/region us-west1
